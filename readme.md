@@ -11,7 +11,7 @@ This is a barebones implementation of [JWT (JSON Web Token)](https://jwt.io) in 
 To install JWT, just type in the following (uploading to vpm, vpkg is in progress):
 
 ```
-git clone https://github.com/gamemaker1/jwt ~/.vmodules/gamemaker1/jwt/
+git clone https://github.com/gamemaker1/jwt ~/.vmodules/jwt/
 ```
 
 On Windows (command prompt), replace the `~` above with `%USERPROFILE%`.
