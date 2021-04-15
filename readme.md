@@ -11,17 +11,23 @@ This is a barebones implementation of [JWT (JSON Web Token)](https://jwt.io) in 
 To install JWT, just type in the following (uploading to vpm, vpkg is in progress):
 
 ```
-git clone https://github.com/gamemaker1/jwt ~/.vmodules/jwt/
+git clone https://github.com/gamemaker1/jwt ~/.vmodules/gamemaker1/jwt/
 ```
 
 On Windows (command prompt), replace the `~` above with `%USERPROFILE%`.
 
 ## Usage
 
-First, create a header object and specify the algorithm you want to use (default is HMAC with SHA384):
+First import the library:
 
 ```v
-// Create headers with the default algorithm (HMAC with SHA384). Available
+import gamemaker1.jwt
+```
+
+Then create a header object and specify the algorithm you want to use (default is HMAC with SHA384):
+
+```v
+// Create headers with the default algorithm (HMAC with SHA384). Possible
 // values include .hs224 (HMAC with SHA224), .hs256 (HMAC with SHA256), .hs384
 // (HMAC with SHA384) and .hs512 (HMAC with SHA512)
 mut headers := jwt.headers(.default)

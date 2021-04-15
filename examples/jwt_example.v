@@ -5,7 +5,7 @@
 // EXAMPLE PROGRAM USING THE JWT MODULE
 
 // Import the module
-import jwt
+import gamemaker1.jwt
 // Import the time module
 import time
 
