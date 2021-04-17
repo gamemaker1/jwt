@@ -119,7 +119,7 @@ retrieved_headers, retrieved_claims := jwt.decode<CustomClaims>(
 
 ## Example
 
-For an example program that uses `jwt`, take a look at [`jwt_example.v`](./jwt_example.v).
+For an example program that uses `jwt`, take a look at [`jwt_example.v`](./examples/jwt_example.v).
 
 ## Todos
 
